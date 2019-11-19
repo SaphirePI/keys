@@ -1,0 +1,16 @@
+{
+  "name": "keys",
+  "version": "1.0.0",
+  "description": "The keys game writen in electron!",
+  "scripts": {
+    "start": "electron ."
+  },
+  "main": "index.js",
+  "repository": "https://github.com/thex49/keys.git",
+  "author": "Nefelit",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "electron": "^7.1.1"
+  }
+}

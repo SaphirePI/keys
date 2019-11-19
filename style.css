@@ -1,0 +1,44 @@
+body {
+  background: #0f0f0f;
+  color: white;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+}
+
+#wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 96vh;
+}
+
+#points {
+  position: absolute;
+  z-index: -99; /* я знаю что эту защиту можно обойти, но кого это ебет? Кстати привет :)*/
+  opacity: 0.2;
+  font-size: 270px;
+}
+
+#tip {
+  padding-bottom: 250px;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.5;
+  font-size: 30px;
+}
+
+#key {
+  position: absolute;
+  z-index: 99;
+  font-size: 100px;
+}
+
+.yellow {
+  color: #fecb06;
+}
+
+footer {
+  height: 6vh;
+  width: 100%;
+  text-align: center;
+}
